@@ -20,10 +20,6 @@
         seinfo tag is assigned.
       - The default tag is consulted last if needed.
 -->
-    <!-- google apps key -->
-    <signer signature="@MDS" >
-        <seinfo value="mds" />
-    </signer>
     <signer signature="@PMS" >
         <seinfo value="pms" />
     </signer>
