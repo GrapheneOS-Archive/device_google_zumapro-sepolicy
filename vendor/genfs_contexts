@@ -119,6 +119,8 @@ genfscon sysfs /devices/platform/odm/odm:btbcm/power/wakeup                     
 genfscon sysfs /devices/platform/odm/odm:btbcm/wakeup                                                                     u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/odm/odm:qcom,qbt-handler/wakeup                                                          u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/sound-aoc/wakeup                                                                         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/19440000.drmdsim/19440000.drmdsim.0/wakeup/                                              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/19450000.drmdsim/19450000.drmdsim.0/wakeup/                                              u:object_r:sysfs_wakeup:s0
 
 # WiFi
 genfscon sysfs /wifi                                                           u:object_r:sysfs_wifi:s0
