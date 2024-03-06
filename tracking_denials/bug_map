@@ -3,9 +3,6 @@ dump_display sysfs file b/322917055
 dumpstate image_processing_hal binder b/322916328
 dumpstate image_processing_server binder b/322916328
 hal_gnss_default vendor_gps_prop file b/318310869
-hal_graphics_composer_default sysfs file b/326869239
-hal_graphics_composer_default sysfs file b/326869289
-hal_graphics_composer_default sysfs file b/326869823
 incidentd incidentd anon_inode b/322917075
 sctd sctd tcp_socket b/309550514
 sctd swcnd unix_stream_socket b/309550514

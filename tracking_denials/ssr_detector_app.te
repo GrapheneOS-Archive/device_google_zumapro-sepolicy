@@ -1,4 +1,0 @@
-# b/307468827
-userdebug_or_eng(`
-  permissive ssr_detector_app;
-')
