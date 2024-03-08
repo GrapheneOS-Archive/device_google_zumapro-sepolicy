@@ -24,3 +24,7 @@ get_prop(modem_ml_svc_sit, vendor_rild_prop)
 # Access to NNAPI service
 hal_client_domain(modem_ml_svc_sit, hal_neuralnetworks)
 allow modem_ml_svc_sit edgetpu_nnapi_service:service_manager find;
+
+# Access to TFLite binder service
+allow modem_ml_svc_sit modemml_tflite_service:service_manager find;
+binder_call(modem_ml_svc_sit, system_server)
