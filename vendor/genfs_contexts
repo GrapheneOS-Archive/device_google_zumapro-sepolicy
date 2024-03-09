@@ -360,3 +360,13 @@ genfscon sysfs /devices/platform/13200000.ufs/pixel/boot_lun_enabled           u
 # Extcon
 genfscon sysfs /devices/platform/108d0000.hsi2c/i2c-6/6-0025/extcon   u:object_r:sysfs_extcon:s0
 
+# ARM ETE
+genfscon sysfs /devices/platform/ete0    u:object_r:sysfs_devices_cs_etm:s0
+genfscon sysfs /devices/platform/ete1    u:object_r:sysfs_devices_cs_etm:s0
+genfscon sysfs /devices/platform/ete2    u:object_r:sysfs_devices_cs_etm:s0
+genfscon sysfs /devices/platform/ete3    u:object_r:sysfs_devices_cs_etm:s0
+genfscon sysfs /devices/platform/ete4    u:object_r:sysfs_devices_cs_etm:s0
+genfscon sysfs /devices/platform/ete5    u:object_r:sysfs_devices_cs_etm:s0
+genfscon sysfs /devices/platform/ete6    u:object_r:sysfs_devices_cs_etm:s0
+genfscon sysfs /devices/platform/ete7    u:object_r:sysfs_devices_cs_etm:s0
+
