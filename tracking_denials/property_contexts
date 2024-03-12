@@ -15,8 +15,4 @@ vendor.gf.                                 u:object_r:vendor_fingerprint_prop:s0
 persist.vendor.shutdown.                   u:object_r:vendor_shutdown_prop:s0
 # Dynamic sensor
 vendor.dynamic_sensor.                     u:object_r:vendor_dynamic_sensor_prop:s0
-# Display
-ro.vendor.primarydisplay.xrr.version       u:object_r:vendor_display_prop:s0 exact string
-ro.vendor.primarydisplay.vrr.expected_present.headsup_ns       u:object_r:vendor_display_prop:s0 exact int
-ro.vendor.primarydisplay.vrr.expected_present.timeout_ns       u:object_r:vendor_display_prop:s0 exact int
 
