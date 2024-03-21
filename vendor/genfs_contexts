@@ -37,6 +37,17 @@ genfscon sysfs /class/power_supply/wireless/device/fw_rev                       
 # debugfs
 genfscon debugfs /regmap                                                u:object_r:vendor_regmap_debugfs:s0
 genfscon debugfs /usb                                                   u:object_r:vendor_usb_debugfs:s0
+genfscon debugfs /google_charger                                        u:object_r:vendor_charger_debugfs:s0
+genfscon debugfs /max77729_pmic                                         u:object_r:vendor_charger_debugfs:s0
+genfscon debugfs /max77759_chg                                          u:object_r:vendor_charger_debugfs:s0
+genfscon debugfs /max77779_chg                                          u:object_r:vendor_charger_debugfs:s0
+genfscon debugfs /max77779_pmic                                         u:object_r:vendor_charger_debugfs:s0
+genfscon debugfs /gvotables                                             u:object_r:vendor_votable_debugfs:s0
+genfscon debugfs /google_battery                                        u:object_r:vendor_battery_debugfs:s0
+genfscon debugfs /maxfg                                                 u:object_r:vendor_maxfg_debugfs:s0
+genfscon debugfs /max77779fg                                            u:object_r:vendor_maxfg_debugfs:s0
+genfscon debugfs /maxfg_base                                            u:object_r:vendor_maxfg_debugfs:s0
+genfscon debugfs /maxfg_secondary                                       u:object_r:vendor_maxfg_debugfs:s0
 
 # GPU
 genfscon sysfs /devices/platform/1f000000.mali/hint_min_freq              u:object_r:sysfs_gpu:s0

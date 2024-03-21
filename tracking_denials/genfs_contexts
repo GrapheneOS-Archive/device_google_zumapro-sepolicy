@@ -27,16 +27,7 @@ genfscon sysfs /devices/platform/2bf40000.etm    u:object_r:sysfs_devices_cs_etm
 genfscon sysfs /devices/platform/17000080.devfreq_bo/devfreq/17000080.devfreq_bo/cur_freq               u:object_r:sysfs_devfreq_cur:s0
 
 # debugfs
-genfscon debugfs /google_charger                                        u:object_r:vendor_charger_debugfs:s0
-genfscon debugfs /max77729_pmic                                         u:object_r:vendor_charger_debugfs:s0
-genfscon debugfs /max77759_chg                                          u:object_r:vendor_charger_debugfs:s0
-genfscon debugfs /max77779_chg                                          u:object_r:vendor_charger_debugfs:s0
-genfscon debugfs /max77779_pmic                                         u:object_r:vendor_charger_debugfs:s0
-genfscon debugfs /gvotables                                             u:object_r:vendor_votable_debugfs:s0
-genfscon debugfs /google_battery                                        u:object_r:vendor_battery_debugfs:s0
 genfscon debugfs /pm_genpd/pm_genpd_summary                             u:object_r:vendor_pm_genpd_debugfs:s0
-genfscon debugfs /maxfg                                                 u:object_r:vendor_maxfg_debugfs:s0
-genfscon debugfs /max77779fg                                            u:object_r:vendor_maxfg_debugfs:s0
 
 # Storage
 genfscon sysfs /devices/platform/13200000.ufs/hibern8_on_idle_enable    u:object_r:sysfs_scsi_devices_0000:s0
