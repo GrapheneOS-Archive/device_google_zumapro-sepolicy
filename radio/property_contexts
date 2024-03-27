@@ -5,6 +5,9 @@ persist.vendor.cbd.                        u:object_r:vendor_cbd_prop:s0
 # for ims service
 persist.vendor.ims.                        u:object_r:vendor_imssvc_prop:s0
 
+# for ims test mode based on go/tiss (do not modify, setprop should not be enabled)
+persist.vendor.ims_tiss.                   u:object_r:vendor_ims_tiss_prop:s0
+
 # for slog
 vendor.sys.silentlog.                      u:object_r:vendor_slog_prop:s0
 vendor.sys.exynos.slog.                    u:object_r:vendor_slog_prop:s0
