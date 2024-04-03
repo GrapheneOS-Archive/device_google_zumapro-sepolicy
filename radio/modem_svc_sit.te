@@ -34,6 +34,9 @@ set_prop(modem_svc_sit, vendor_modem_prop)
 allow modem_svc_sit hal_exynos_rild_hwservice:hwservice_manager find;
 get_prop(modem_svc_sit, hwservicemanager_prop)
 
+# Modem SVC will register the default instance of the AIDL ISharedModemPlatform hal.
+hal_server_domain(modem_svc_sit, hal_shared_modem_platform)
+
 # Write trace data to the Perfetto traced daemon. This requires connecting to
 # its producer socket and obtaining a (per-process) tmpfs fd.
 perfetto_producer(modem_svc_sit)
