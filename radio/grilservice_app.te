@@ -20,3 +20,4 @@ hal_client_domain(grilservice_app, hal_power_stats)
 # Read access to /sys/kernel/irq
 allow grilservice_app sysfs_irq:dir r_dir_perms;
 allow grilservice_app sysfs_irq:file r_file_perms;
+get_prop(grilservice_app, telephony_modemtype_prop)

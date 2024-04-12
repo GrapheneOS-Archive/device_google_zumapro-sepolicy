@@ -7,3 +7,6 @@ allow vendor_init tee_data_file:lnk_file read;
 userdebug_or_eng(`
     set_prop(vendor_init, vendor_imssvc_prop)
 ')
+
+# MM
+allow vendor_init proc_compaction_proactiveness:file w_file_perms;
