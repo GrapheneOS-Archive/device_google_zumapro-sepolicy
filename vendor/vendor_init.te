@@ -10,3 +10,4 @@ userdebug_or_eng(`
 
 # MM
 allow vendor_init proc_compaction_proactiveness:file w_file_perms;
+allow vendor_init proc_percpu_pagelist_high_fraction:file w_file_perms;
