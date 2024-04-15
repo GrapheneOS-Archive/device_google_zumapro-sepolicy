@@ -79,6 +79,7 @@
 /dev/sys/block/bootdevice(/.*)?                                             u:object_r:bootdevice_sysdev:s0
 /dev/socket/chre                                                            u:object_r:chre_socket:s0
 /dev/battery_history                                                        u:object_r:battery_history_device:s0
+/dev/maxfg_history                                                          u:object_r:battery_history_device:s0
 /dev/bbd_pwrstat                                                            u:object_r:power_stats_device:s0
 /dev/edgetpu-soc                                                            u:object_r:edgetpu_device:s0
 /dev/block/sda                                                              u:object_r:sda_block_device:s0
