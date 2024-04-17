@@ -57,6 +57,7 @@ genfscon sysfs /devices/platform/1f000000.mali/total_gpu_mem              u:obje
 genfscon sysfs /devices/platform/1f000000.mali/kprcs                      u:object_r:sysfs_gpu:s0
 genfscon sysfs /devices/platform/1f000000.mali/dvfs_period                u:object_r:sysfs_gpu:s0
 genfscon sysfs /devices/platform/1f000000.mali/cur_freq                   u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/1f000000.mali/capacity_headroom          u:object_r:sysfs_gpu:s0
 
 # Haptics
 genfscon sysfs /devices/platform/10c90000.hsi2c/i2c-9/9-0043                            u:object_r:sysfs_vibrator:s0
