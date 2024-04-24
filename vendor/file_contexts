@@ -132,6 +132,7 @@
 /dev/logbuffer_cpif                                                         u:object_r:logbuffer_device:s0
 /dev/logbuffer_max77779fg_monitor                                           u:object_r:logbuffer_device:s0
 /dev/logbuffer_bd                                                           u:object_r:logbuffer_device:s0
+/dev/logbuffer_max77779_fwupdate                                            u:object_r:logbuffer_device:s0
 /dev/lwis-be-core                                                           u:object_r:lwis_device:s0
 /dev/lwis-dpm                                                               u:object_r:lwis_device:s0
 /dev/lwis-gdc0                                                              u:object_r:lwis_device:s0
