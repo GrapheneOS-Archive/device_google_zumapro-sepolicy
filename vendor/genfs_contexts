@@ -87,6 +87,14 @@ genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-003b/power/wakeup     
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-003b/power_supply/wireless/power/wakeup                         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-003b/power_supply/wireless/wakeup                               u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-003b/wakeup                                                     u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power/wakeup                                               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power_supply/wireless/power/wakeup                         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/power_supply/wireless/wakeup                               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0061/wakeup                                                     u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-005b/power/wakeup                                               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-005b/power_supply/rt9471/power/wakeup                         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-005b/power_supply/rt9471/wakeup                               u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-005b/wakeup                                                     u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0057/power_supply/dc-mains/power/wakeup                         u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0057/power_supply/dc-mains/wakeup                               u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-006e/power_supply/dc-mains/wakeup                               u:object_r:sysfs_wakeup:s0
