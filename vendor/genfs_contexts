@@ -378,6 +378,7 @@ genfscon sysfs /devices/platform/acpm_stats                                     
 
 # Power Stats
 genfscon sysfs /devices/platform/10c90000.hsi2c/i2c-9/9-0008/power_stats u:object_r:sysfs_power_stats:s0
+genfscon sysfs /devices/platform/12100000.pcie/link_duration             u:object_r:sysfs_power_stats:s0
 genfscon sysfs /devices/platform/12100000.pcie/power_stats               u:object_r:sysfs_power_stats:s0
 genfscon sysfs /devices/platform/13120000.pcie/power_stats               u:object_r:sysfs_power_stats:s0
 genfscon sysfs /devices/platform/cpif/modem/power_stats                  u:object_r:sysfs_power_stats:s0
