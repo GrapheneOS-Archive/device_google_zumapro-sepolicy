@@ -56,6 +56,7 @@ genfscon sysfs /devices/platform/1f000000.mali/dma_buf_gpu_mem            u:obje
 genfscon sysfs /devices/platform/1f000000.mali/total_gpu_mem              u:object_r:sysfs_gpu:s0
 genfscon sysfs /devices/platform/1f000000.mali/kprcs                      u:object_r:sysfs_gpu:s0
 genfscon sysfs /devices/platform/1f000000.mali/dvfs_period                u:object_r:sysfs_gpu:s0
+genfscon sysfs /devices/platform/1f000000.mali/available_frequencies      u:object_r:sysfs_gpu:s0
 genfscon sysfs /devices/platform/1f000000.mali/cur_freq                   u:object_r:sysfs_gpu:s0
 genfscon sysfs /devices/platform/1f000000.mali/capacity_headroom          u:object_r:sysfs_gpu:s0
 
