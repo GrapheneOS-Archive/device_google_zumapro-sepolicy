@@ -1,3 +1,7 @@
+# Display
+r_dir_file(pixelstats_vendor, sysfs_display)
+allow pixelstats_vendor sysfs_display:lnk_file r_file_perms;
+
 # Pca charge
 allow pixelstats_vendor sysfs_pca:file rw_file_perms;
 
