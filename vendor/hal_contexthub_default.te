@@ -1,0 +1,3 @@
+
+# Allow binder call to PixelGnss PPS function.
+binder_call(hal_contexthub_default, hal_gnss_pixel)
