@@ -1,2 +1,0 @@
-# b/308381687
-dontaudit hal_sensors_default sysfs_leds:file { write };
