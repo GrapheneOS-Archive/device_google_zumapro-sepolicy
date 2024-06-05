@@ -6,7 +6,6 @@ type vendor_log_file, file_type, data_file_type;
 type vendor_rfsd_log_file, file_type, data_file_type;
 type vendor_slog_file, file_type, data_file_type;
 userdebug_or_eng(`
-  typeattribute vendor_gps_file mlstrustedobject;
   typeattribute vendor_slog_file mlstrustedobject;
 ')
 

@@ -4,9 +4,6 @@ genfscon sysfs /devices/platform/sjtag_gsa/interface                      u:obje
 
 genfscon sysfs /firmware/devicetree/base/chosen                           u:object_r:sysfs_chosen:s0
 
-# GPS
-genfscon sysfs /devices/platform/111e0000.spi/spi_master/spi21/spi21.0/nstandby  u:object_r:sysfs_gps:s0
-
 # Modem
 genfscon sysfs /devices/platform/cp-tm1/cp_temp  u:object_r:sysfs_modem:s0
 genfscon sysfs /devices/platform/cpif/dynamic_pcie_spd/tp_threshold  u:object_r:sysfs_modem:s0
