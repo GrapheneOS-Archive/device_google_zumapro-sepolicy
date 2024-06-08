@@ -6,3 +6,6 @@ telephony.ril.ntn_demo_mode   u:object_r:telephony_ntn_demo_mode_prop:s0 exact b
 
 # HDCP setting of the display connected via USB port
 persist.sys.hdcp_checking     u:object_r:usb_control_prop:s0 exact string
+
+# setupwizard
+setupwizard.feature.provisioning_profile_mode    u:object_r:setupwizard_feature_prop:s0

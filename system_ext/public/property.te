@@ -7,3 +7,6 @@ system_restricted_prop(telephony_ntn_demo_mode_prop)
 userdebug_or_eng(`
   set_prop(shell, telephony_ril_prop)
 ')
+
+# setupwizard
+system_public_prop(setupwizard_feature_prop)
