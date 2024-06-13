@@ -55,6 +55,10 @@ vendor.wlan.firmware.version               u:object_r:vendor_wifi_version:s0
 # for vendor telephony debug app
 vendor.config.debug.                       u:object_r:vendor_telephony_app_prop:s0
 
+# for gps
+vendor.gps.                                u:object_r:vendor_gps_prop:s0
+persist.vendor.gps.                        u:object_r:vendor_gps_prop:s0
+
 # Tcpdump_logger
 persist.vendor.tcpdump.log.alwayson        u:object_r:vendor_tcpdump_log_prop:s0
 vendor.tcpdump.                            u:object_r:vendor_tcpdump_log_prop:s0
