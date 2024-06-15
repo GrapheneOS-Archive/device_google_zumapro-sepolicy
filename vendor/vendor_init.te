@@ -8,5 +8,3 @@ userdebug_or_eng(`
     set_prop(vendor_init, vendor_imssvc_prop)
 ')
 
-# setupwizard
-set_prop(vendor_init, setupwizard_feature_prop)
