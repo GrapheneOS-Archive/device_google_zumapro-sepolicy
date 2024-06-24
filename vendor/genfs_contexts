@@ -29,6 +29,8 @@ genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-003b/power_supply     
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0057/power_supply             u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0057/registers_dump           u:object_r:sysfs_power_dump:s0
 genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-0050/eeprom                   u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-005b/power_supply             u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/10ca0000.hsi2c/i2c-10/10-005b/registers_dump           u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /class/power_supply/wireless/device/version                              u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /class/power_supply/wireless/device/status                               u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /class/power_supply/wireless/device/fw_rev                               u:object_r:sysfs_batteryinfo:s0
