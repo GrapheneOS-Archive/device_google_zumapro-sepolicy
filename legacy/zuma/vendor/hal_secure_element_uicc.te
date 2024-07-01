@@ -10,3 +10,5 @@ crash_dump_fallback(hal_secure_element_uicc)
 # Allow hal_secure_element_uicc to access rild
 binder_call(hal_secure_element_uicc, rild);
 allow hal_secure_element_uicc hal_exynos_rild_hwservice:hwservice_manager find;
+allow hal_secure_element_uicc hal_vendor_radio_external_service:service_manager find;
+binder_call(hal_secure_element_uicc, servicemanager)

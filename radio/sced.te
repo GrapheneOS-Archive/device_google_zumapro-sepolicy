@@ -20,4 +20,6 @@ userdebug_or_eng(`
   allow sced vendor_slog_file:file create_file_perms;
   allow sced hidl_base_hwservice:hwservice_manager add;
   allow sced hal_vendor_oem_hwservice:hwservice_manager { add find };
+  add_service(sced, hal_vendor_tcpdump_service)
+  binder_call(sced, servicemanager)
 ')

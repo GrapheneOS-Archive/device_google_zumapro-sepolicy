@@ -11,6 +11,8 @@ allow vendor_telephony_silentlogging_app app_api_service:service_manager find;
 allow vendor_telephony_silentlogging_app hal_vendor_oem_hwservice:hwservice_manager find;
 binder_call(vendor_telephony_silentlogging_app, dmd)
 binder_call(vendor_telephony_silentlogging_app, sced)
+allow vendor_telephony_silentlogging_app hal_vendor_modem_logging_service:service_manager find;
+binder_call(vendor_telephony_silentlogging_app, servicemanager)
 
 userdebug_or_eng(`
 # Silent Logging

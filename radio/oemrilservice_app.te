@@ -7,3 +7,6 @@ allow oemrilservice_app radio_service:service_manager find;
 
 binder_call(oemrilservice_app, rild)
 set_prop(oemrilservice_app, vendor_rild_prop)
+
+allow oemrilservice_app hal_vendor_radio_external_service:service_manager find;
+binder_call(oemrilservice_app, servicemanager)

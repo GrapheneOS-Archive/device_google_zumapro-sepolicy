@@ -37,6 +37,7 @@ crash_dump_fallback(rild)
 
 # for hal service
 add_hwservice(rild, hal_exynos_rild_hwservice)
+add_service(rild, hal_vendor_radio_external_service)
 
 # Allow rild to access files on modem img.
 allow rild modem_img_file:dir r_dir_perms;
