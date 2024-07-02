@@ -7,3 +7,6 @@ allow hal_bluetooth_btlinux vendor_bt_data_file:file create_file_perms;
 
 # allow the HAL to call cccdktimesync registered callbacks
 binder_call(hal_bluetooth_btlinux, vendor_cccdktimesync_app)
+
+# Allow access for AoC properties.
+get_prop(hal_bluetooth_btlinux, vendor_aoc_prop)
