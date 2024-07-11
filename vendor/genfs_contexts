@@ -464,3 +464,7 @@ genfscon sysfs /devices/platform/ete7    u:object_r:sysfs_devices_cs_etm:s0
 # Privacy LED
 genfscon sysfs /devices/platform/pwmleds/leds/green/brightness            u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/platform/pwmleds/leds/green/max_brightness        u:object_r:sysfs_leds:s0
+
+# CPU
+genfscon sysfs /kernel/metrics/cpuidle_histogram/cpuidle_histogram        u:object_r:sysfs_cpu:s0
+genfscon sysfs /kernel/metrics/cpuidle_histogram/cpucluster_histogram     u:object_r:sysfs_cpu:s0
