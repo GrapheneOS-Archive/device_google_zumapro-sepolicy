@@ -10,6 +10,7 @@ allow systemui_app mediaserver_service:service_manager find;
 allow systemui_app mediaextractor_service:service_manager find;
 allow systemui_app mediametrics_service:service_manager find;
 allow systemui_app radio_service:service_manager find;
+allow systemui_app vr_manager_service:service_manager find;
 allow systemui_app statsmanager_service:service_manager find;
 allow systemui_app nfc_service:service_manager find;
 allow systemui_app adb_service:service_manager find;
