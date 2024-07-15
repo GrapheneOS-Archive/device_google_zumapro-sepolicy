@@ -1,7 +1,5 @@
 
 dump_display sysfs file b/322917055
-dumpstate image_processing_hal binder b/322916328
-dumpstate image_processing_server binder b/322916328
 hal_audio_default fwk_stats_service service_manager b/340369535
 hal_audio_default traced_producer_socket sock_file b/340369535
 hal_bluetooth_btlinux vendor_default_prop property_service b/350830390
