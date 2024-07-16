@@ -5,6 +5,7 @@ hal_audio_default traced_producer_socket sock_file b/340369535
 hal_bluetooth_btlinux vendor_default_prop property_service b/350830390
 hal_bluetooth_btlinux vendor_default_prop property_service b/350830756
 hal_bluetooth_btlinux vendor_default_prop property_service b/350830758
+hal_bluetooth_btlinux vendor_aoc_prop file b/353262026
 hal_gnss_default vendor_gps_prop file b/318310869
 hal_power_default hal_power_default capability b/350830411
 hal_wlcservice default_prop file b/350830657
