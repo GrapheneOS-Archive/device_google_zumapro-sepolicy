@@ -15,8 +15,6 @@ kernel sepolicy_file file b/353418189
 kernel system_bootstrap_lib_file dir b/353418189
 kernel system_bootstrap_lib_file file b/353418189
 kernel system_dlkm_file dir b/353418189
-pixelstats_vendor sysfs file b/350830132
-pixelstats_vendor sysfs file b/350830475
 sctd sctd tcp_socket b/309550514
 sctd swcnd unix_stream_socket b/309550514
 sctd vendor_persist_config_default_prop file b/309550514
