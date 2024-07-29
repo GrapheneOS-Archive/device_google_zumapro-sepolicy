@@ -44,6 +44,9 @@ allow hal_graphics_composer_default vendor_log_file:dir search;
 
 # allow HWC to access powerstats
 allow hal_graphics_composer_default hal_power_stats_vendor_service:service_manager find;
+allow hal_graphics_composer_default thermal_link_device:dir search;
+allow hal_graphics_composer_default sysfs_thermal:dir search;
+allow hal_graphics_composer_default sysfs_thermal:file r_file_perms;
 binder_call(hal_graphics_composer_default, hal_power_stats_default)
 
 # allow HWC to access IStats AIDL
