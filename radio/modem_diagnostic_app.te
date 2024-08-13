@@ -11,6 +11,7 @@ userdebug_or_eng(`
 
   hal_client_domain(modem_diagnostic_app, hal_power_stats);
 
+  allow modem_diagnostic_app hal_vendor_radio_external_service:service_manager find;
   allow modem_diagnostic_app hal_exynos_rild_hwservice:hwservice_manager find;
   binder_call(modem_diagnostic_app, rild)
 
