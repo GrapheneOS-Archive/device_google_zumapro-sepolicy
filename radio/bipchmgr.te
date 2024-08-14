@@ -9,3 +9,4 @@ hwbinder_use(bipchmgr)
 binder_call(bipchmgr, rild)
 allow bipchmgr hal_vendor_radio_external_service:service_manager find;
 binder_call(bipchmgr, servicemanager)
+binder_use(bipchmgr)
