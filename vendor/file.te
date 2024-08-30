@@ -17,6 +17,7 @@ type sysfs_write_leds, sysfs_type, fs_type;
 type sysfs_fabric, sysfs_type, fs_type;
 type sysfs_em_profile, sysfs_type, fs_type;
 type sysfs_ospm, sysfs_type, fs_type;
+type sysfs_lhbm, sysfs_type, fs_type;
 
 # debugfs
 type vendor_regmap_debugfs, fs_type, debugfs_type;
