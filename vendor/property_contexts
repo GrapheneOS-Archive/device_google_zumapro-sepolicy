@@ -5,6 +5,10 @@ vendor.usb.                                u:object_r:vendor_usb_config_prop:s0
 # SecureElement
 persist.vendor.se.                         u:object_r:vendor_secure_element_prop:s0
 
+# NFC
+persist.vendor.nfc.                        u:object_r:vendor_nfc_prop:s0
+persist.vendor.nfc.antenna.                u:object_r:vendor_nfc_antenna_prop:s0
+
 # vendor default
 ro.vendor.sys.                             u:object_r:vendor_ro_sys_default_prop:s0
 persist.vendor.sys.                        u:object_r:vendor_persist_sys_default_prop:s0
