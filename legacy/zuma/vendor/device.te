@@ -1,7 +1,6 @@
-type persist_block_device, dev_type;
+# device.te
 type custom_ab_block_device, dev_type;
 type mfg_data_block_device, dev_type;
-type ufs_internal_block_device, dev_type;
 type logbuffer_device, dev_type;
 type fingerprint_device, dev_type;
 type uci_device, dev_type;
@@ -15,3 +14,4 @@ type gcma_camera_heap_device, dmabuf_heap_device_type, dev_type;
 
 # SecureElement SPI device
 type st54spi_device, dev_type;
+
