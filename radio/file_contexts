@@ -9,7 +9,6 @@
 /vendor/bin/modem_ml_svc_sit                                                u:object_r:modem_ml_svc_sit_exec:s0
 /vendor/bin/cbd                                                             u:object_r:cbd_exec:s0
 /vendor/bin/hw/rild_exynos                                                  u:object_r:rild_exec:s0
-/vendor/bin/hw/vendor\.google\.radioext@1\.0-service                        u:object_r:hal_radioext_default_exec:s0
 /vendor/bin/liboemservice_proxy_default                                     u:object_r:liboemservice_proxy_default_exec:s0
 /vendor/bin/shared_modem_platform                                           u:object_r:modem_svc_sit_exec:s0
 

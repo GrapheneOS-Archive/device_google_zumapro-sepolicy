@@ -1,3 +1,4 @@
+# for grilservice_app domain
 type grilservice_app, domain;
 app_domain(grilservice_app)
 
@@ -14,7 +15,6 @@ allow grilservice_app radio_vendor_data_file:file create_file_perms;
 allow grilservice_app gril_antenna_tuning_service:service_manager find;
 allow grilservice_app hal_vendor_radio_external_service:service_manager find;
 binder_call(grilservice_app, hal_bluetooth_btlinux)
-binder_call(grilservice_app, hal_radioext_default)
 binder_call(grilservice_app, hal_wifi_ext)
 binder_call(grilservice_app, hal_audiometricext_default)
 binder_call(grilservice_app, rild)

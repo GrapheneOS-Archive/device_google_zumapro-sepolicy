@@ -1,2 +1,0 @@
-# b/315105050
-dontaudit hal_radioext_default radio_vendor_data_file:file { ioctl };
