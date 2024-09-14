@@ -2,6 +2,7 @@
 dump_display sysfs file b/322917055
 dump_modem sscoredump_vendor_data_coredump_file dir b/361726331
 dump_modem sscoredump_vendor_data_logcat_file dir b/361726331
+grilservice_app default_android_service service_manager b/366116096
 hal_audio_default fwk_stats_service service_manager b/340369535
 hal_audio_default traced_producer_socket sock_file b/340369535
 hal_bluetooth_btlinux vendor_aoc_prop file b/353262026
