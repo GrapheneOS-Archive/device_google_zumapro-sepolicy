@@ -161,6 +161,7 @@
 /dev/qbt_ipc                                                                u:object_r:fingerprint_device:s0
 /dev/qbt_fd                                                                 u:object_r:fingerprint_device:s0
 /dev/goodix_fp                                                              u:object_r:fingerprint_device:s0
+/dev/fth_fd                                                                 u:object_r:fingerprint_device:s0
 /dev/video12                                                                u:object_r:hw_jpg_device:s0
 
 # Data

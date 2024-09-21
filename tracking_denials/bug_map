@@ -18,6 +18,8 @@ kernel sepolicy_file file b/353418189
 kernel system_bootstrap_lib_file dir b/353418189
 kernel system_bootstrap_lib_file file b/353418189
 kernel system_dlkm_file dir b/353418189
+modem_svc_sit hal_radioext_default process b/368187536
+modem_svc_sit hal_radioext_default process b/368188020
 modem_svc_sit modem_ml_svc_sit file b/360060680
 modem_svc_sit modem_ml_svc_sit file b/360060705
 sctd sctd tcp_socket b/309550514
