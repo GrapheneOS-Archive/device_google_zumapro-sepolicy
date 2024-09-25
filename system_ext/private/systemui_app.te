@@ -20,6 +20,7 @@ get_prop(systemui_app, keyguard_config_prop)
 set_prop(systemui_app, bootanim_system_prop)
 get_prop(systemui_app, qemu_hw_prop)
 set_prop(systemui_app, debug_prop)
+get_prop(systemui_app, radio_cdma_ecm_prop)
 
 # Allow writing and removing wmshell protolog in /data/misc/wmtrace.
 userdebug_or_eng(`
