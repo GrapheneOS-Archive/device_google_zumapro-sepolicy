@@ -60,3 +60,7 @@ allow hal_fingerprint_default vendor_fingerprint_data_file:file create_file_perm
 
 # Allow fingerprint to rw lhbm files
 allow hal_fingerprint_default sysfs_lhbm:file rw_file_perms;
+
+# Allow fingerprint to access sysfs_aoc_udfps
+allow hal_fingerprint_default sysfs_aoc:dir search;
+allow hal_fingerprint_default sysfs_aoc_udfps:file rw_file_perms;

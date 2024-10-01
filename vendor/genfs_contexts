@@ -464,6 +464,9 @@ genfscon sysfs /devices/platform/17000000.aoc/control/memory_exception      u:ob
 genfscon sysfs /devices/platform/17000000.aoc/control/memory_votes_a32      u:object_r:sysfs_aoc_dumpstate:s0
 genfscon sysfs /devices/platform/17000000.aoc/control/memory_votes_ff1      u:object_r:sysfs_aoc_dumpstate:s0
 genfscon sysfs /devices/platform/17000000.aoc/notify_timeout_aoc_status     u:object_r:sysfs_aoc_notifytimeout:s0
+genfscon sysfs /devices/platform/17000000.aoc/control/udfps_set_clock_source    u:object_r:sysfs_aoc_udfps:s0
+genfscon sysfs /devices/platform/17000000.aoc/control/udfps_get_osc_freq        u:object_r:sysfs_aoc_udfps:s0
+genfscon sysfs /devices/platform/17000000.aoc/control/udfps_get_disp_freq       u:object_r:sysfs_aoc_udfps:s0
 
 # OTA
 genfscon sysfs /devices/platform/13200000.ufs/pixel/boot_lun_enabled           u:object_r:sysfs_ota:s0
