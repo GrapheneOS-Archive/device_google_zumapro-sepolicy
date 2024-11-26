@@ -74,6 +74,7 @@ allow hal_camera_default sysfs_display:file r_file_perms;
 # Allow camera HAL to query preferred camera frequencies from the radio HAL
 # extensions to avoid interference with cellular antennas.
 allow hal_camera_default hal_radioext_hwservice:hwservice_manager find;
+allow hal_camera_default hal_radio_ext_service:service_manager find;
 
 # Allows camera HAL to access the hw_jpeg /dev/video12.
 allow hal_camera_default hw_jpg_device:chr_file rw_file_perms;
