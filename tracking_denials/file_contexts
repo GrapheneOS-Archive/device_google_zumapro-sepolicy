@@ -32,3 +32,5 @@
 # Data
 /data/nfc(/.*)?                                                             u:object_r:nfc_data_file:s0
 /data/per_boot(/.*)?                                                        u:object_r:per_boot_file:s0
+# BP2A
+/data/vendor/nfc(/.*)?                                                      u:object_r:vendor_nfc_vendor_data_file:s0
