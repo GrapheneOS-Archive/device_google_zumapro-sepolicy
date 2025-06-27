@@ -1,0 +1,2 @@
+type init_qfp, domain;
+type init_qfp_exec, vendor_file_type, exec_type, file_type;
