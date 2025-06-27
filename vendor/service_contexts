@@ -4,3 +4,6 @@ vendor.google.wireless_charger.IWirelessCharger/default           u:object_r:hal
 hardware.qorvo.uwb.IUwbVendor/default                             u:object_r:hal_uwb_vendor_service:s0
 com.android.server.modemml.ITFLiteService/default                 u:object_r:modemml_tflite_service:s0
 vendor.goodix.hardware.biometrics.fingerprint.IGoodixFingerprintDaemon/default  u:object_r:hal_fingerprint_service:s0
+
+# BP2A
+com.google.hardware.biometrics.fingerprint.debug.IFingerprintDebug/default   u:object_r:hal_fingerprint_debug_service:s0
