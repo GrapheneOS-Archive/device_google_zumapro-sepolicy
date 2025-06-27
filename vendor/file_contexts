@@ -184,3 +184,4 @@
 # BP2A
 /vendor/bin/dump/dump_tpu                                                   u:object_r:dump_tpu_exec:s0
 /vendor/bin/init\.qfp\.sh                                                   u:object_r:init_qfp_exec:s0
+/dev/logbuffer_wlc_fw_update                                                u:object_r:logbuffer_device:s0
