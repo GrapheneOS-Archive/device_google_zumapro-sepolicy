@@ -24,3 +24,7 @@ binder_call(hal_sensors_default, hal_graphics_composer_default)
 
 # Allow access to the power supply files for MagCC.
 allow hal_sensors_default sysfs_wlc:dir r_dir_perms;
+
+# BP2A: Allow sensor HAL to access the audio HAL
+binder_call(hal_sensors_default, hal_audio_default)
+allow hal_sensors_default hal_audio_ext_service:service_manager find;
