@@ -180,3 +180,6 @@
 /data/vendor/chre(/.*)?                                                     u:object_r:chre_data_file:s0
 /data/vendor/misc/qti_fp(/.*)?                                              u:object_r:vendor_fingerprint_data_file:s0
 /data/vendor/fingerprint(/.*)?                                              u:object_r:fingerprint_vendor_data_file:s0
+
+# BP2A
+/vendor/bin/dump/dump_tpu                                                   u:object_r:dump_tpu_exec:s0
