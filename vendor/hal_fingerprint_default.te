@@ -64,3 +64,6 @@ allow hal_fingerprint_default sysfs_lhbm:file rw_file_perms;
 # Allow fingerprint to access sysfs_aoc_udfps
 allow hal_fingerprint_default sysfs_aoc:dir search;
 allow hal_fingerprint_default sysfs_aoc_udfps:file rw_file_perms;
+
+# BP2A
+dontaudit hal_fingerprint_default default_android_service:service_manager add;
