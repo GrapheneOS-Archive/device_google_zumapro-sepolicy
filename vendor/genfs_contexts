@@ -499,3 +499,9 @@ genfscon sysfs /kernel/metrics/cpuidle_histogram/cpucluster_histogram     u:obje
 
 # Bluetooth
 genfscon sysfs /devices/platform/155d0000.serial/uart_dbg     u:object_r:sysfs_bt_uart:s0
+
+# USB
+# Added in BP2A, copied from zuma-sepolicy
+starting_at_board_api(202504, `
+genfscon sysfs /devices/platform/11210000.usb/11210000.dwc3/udc/11210000.dwc3/state   u:object_r:sysfs_udc:s0
+')
